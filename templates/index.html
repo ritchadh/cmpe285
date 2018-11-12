@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMPE 285 Homework</title>
+  </head>
+
+  <body>
+    <h2>Compute Your Profit</h2>
+    <form action="/stockcalc" method="post" name ="stocks">
+      Ticker Symbol<input type="text" name="Ticker Symbol"></input><br>
+      Allotment<input type="text" name="Allotment"></input><br>
+      Final Share Price<input type="text" name="Final Share Price"></input><br>
+      Sell Commission<input type="text" name="Sell Commission"></input><br>
+      Initial Share Price<input type="text" name="Initial Share Price"></input><br>
+      Buy Commission<input type="text" name="Buy Commission"></input><br>
+      Capital Gain Tax Rate (%)<input type="text" name="Capital Gain Tax Rate"></input><br><br>
+      <input type="submit" value="Submit"><br><br>
+    
+
+    </form>
+    
+    <hr><br><br>
+    <h2>Python Finance Info</h2>
+    <form action="/getstocks" method="post" name ="stocks">
+      Please enter a symbol:<input type="text" name="symbol"></input><br><br>
+      <input type="submit" value="Find Stock Info"><br><br>
+
+    </form>
+
+  </body>
+</html>
